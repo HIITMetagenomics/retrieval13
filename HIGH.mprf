@@ -1,0 +1,47 @@
+### MetaSim taxon profile
+# 5 name "Bacteroides fragilis 638R"
+5        taxid  862962
+# 2 name "Bacteroides helcogenes P 36-108 chromosome"
+2        taxid  693979
+# 331 name "Bacteroides salanitronis DSM 18170 chromosome"
+331        taxid  667015
+# 0 name "Bacteroides thetaiotaomicron VPI-5482 chromosome"
+0        taxid  226186
+# 0 name "Bacteroides vulgatus ATCC 8482 chromosome"
+0        taxid  435590
+# 31 name "Clostridium acetobutylicum ATCC 824 chromosome"
+31        taxid  272562
+# 22 name "Clostridium beijerinckii NCIMB 8052 chromosome"
+22        taxid  290402
+# 14 name "Ruminococcus albus 7 chromosome"
+14        taxid  697329
+# 14 name "Streptococcus parasanguinis ATCC 15912 chromosome"
+14        taxid  760570
+# 0 name "Streptococcus parauberis KCTC 11537 chromosome"
+0        taxid  936154
+# 0 name "Streptococcus pasteurianus ATCC 43144"
+0        taxid  981540
+# 51 name "Acetobacter pasteurianus IFO 3283-07"
+51        taxid  634454
+# 15 name "Escherichia coli 'BL21-Gold(DE3)pLysS AG' chromosome"
+15        taxid  866768
+# 0 name "Escherichia coli 536"
+0        taxid  362663
+# 96 name "Escherichia coli 55989 chromosome"
+96        taxid  585055
+# 0 name "Escherichia coli B str. REL606 chromosome"
+0        taxid  413997
+# 7 name "Escherichia coli BW2952 chromosome"
+7        taxid  595496
+# 63 name "Escherichia coli CFT073 chromosome"
+63        taxid  199310
+# 270 name "Prevotella denticola F0289 chromosome"
+270        taxid  767031
+# 0 name "Prevotella ruminicola 23 chromosome"
+0        taxid  264731
+# 4 name "Bacillus amyloliquefaciens CAU-B946"
+4        taxid  1114958
+# 20 name "Chlamydia muridarum Nigg"
+20        taxid  243161
+# 47 name "Chlamydia trachomatis 434/Bu chromosome"
+47        taxid  471472
