@@ -1,4 +1,4 @@
-function D = computeDissimilarity(data,distance)
+function D = computeDissimilarity(data, distance, verbose)
 
 % This function computes the nSamxnSam dissimilarity matrix D given
 %   data:   either a nSamxnSam interaction matrix (e.g. intersection/union)
@@ -8,7 +8,10 @@ function D = computeDissimilarity(data,distance)
 
 % Author: Sohan Seth, sohan.seth@hhiit.fi
 
-verbose = 1; nSam = size(data,2);
+if nargin == 2
+    verbose = 0; 
+end
+nSam = size(data,2);
 
 switch distance
     case 'setover' % Percentage overlap between strings present
@@ -28,13 +31,33 @@ switch distance
         end
         D = 1 - I./U;
     case 'hel' % Hellinger distance between probability measure
-        if all(data(:) >= 0) & (all(data(:)) <= 1)
+        if all(data(:) >= 0) & (all(data(:) <= 1))
             if verbose, fprintf('Computing %dx%d hellinger distance matrix from distributions.\n',nSam,nSam); end;
         else
             if verbose, fprintf('Computing %dx%d hellinger distance matrix from counts.\n',nSam,nSam); end;
             data = data ./ repmat(sum(data),size(data,1),1);
         end
         D = 1 - sqrt(data') * sqrt(data);
+    case 'bc' % Bray Curtis distance
+        if verbose, fprintf('Computing %dx%d Bray Curtis dissimilarity matrix from distributions.\n',nSam,nSam); end;
+        for countSam1 = 1:nSam
+            for countSam2 = 1:nSam
+                D(countSam1,countSam2) = sum(abs(data(:,countSam1) - data(:,countSam2))) ...
+                    / sum(data(:,countSam1) + data(:,countSam2));
+            end
+        end
+    case 'd2S'
+        if verbose, fprintf('Computing %dx%d d^2_S distance matrix from counts.\n',nSam,nSam); end;
+        data = bsxfun(@minus, data, sum(data)/size(data,1));
+        for count1 = 1:nSam
+           for count2 = 1:nSam
+               d(count1, count2) = ...
+                   sum(data(:, count1) .* data(:, count2) ./ sqrt(data(:, count1).^2 + data(:, count2).^2)) ...
+                   / sqrt(sum(data(:, count1).^2 ./ sqrt(data(:, count1).^2 + data(:, count2).^2))) ...
+                   / sqrt(sum(data(:, count2).^2 ./ sqrt(data(:, count1).^2 + data(:, count2).^2)));
+           end
+        end
+        D = 0.5 * (1 - d);
     otherwise
         error('dissimilarity not defined')
 end

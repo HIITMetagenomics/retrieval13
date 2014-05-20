@@ -1,18 +1,20 @@
-# retrieval13
+# Exploration and retrieval of whole-metagenome sequencing samples
 
-
+## Supporting files for generating simulated data using metaSim 
+* use taxon profile given in bioinformaticsRevision.mprf
+* use abundance values given in <experiment>-label-abundance files
+* additional details available in paper
 
 ## Matlab code for reproducing figures
-To generate samples from synthetic data, use generateSamples.m
-* Install metaSim and Jellyfish, check for dependencies explained in the code
-* .mprf files for LOW and HIGH are avaliable
-* Abundance profile of each sample and their class label is available in [LOW/HIGH].abundance.label
-    
-To reproduce the figures in the paper run fig*.m
-* Check for dependencies in configPaths.m 
-* Each <data>.mat file contains 3 matrices for specific k-mer (K), unspecified k-mer (S), and FIGfam (F)
- * Dimensions of recordK - (3 metrices), (k-mer 12 21 30), (entropies), (not needed), (query)
- * Dimensions of recordS - (3 metrices), (entropies), (not needed), (query)
- * Dimensions of recordF - (3 metrices), (entropies), (length 21 30), (query)
- * Each figure*randomTest.mat file contains results of the random test
-  * Description is available within the code
+* run runPlots.m to reproduce figures in the paper
+ * check for dependencies in configPaths.m 
+* each <data>_<condition>.mat file contains 3 matrices for specific k-mer (K), unspecified k-mer (S), and FIGfam (F)
+ * dimensions of recordK - (3 matrices), (k-mer 12 21 30), (entropies), (not needed), (query)
+ * dimensions of recordS - (3 matrices), (entropies), (not needed), (query)
+ * dimensions of recordF - (3 matrices), (entropies), (length 21 30), (query)
+ * each figure*randomTest.mat file contains results of the random test
+ * abundanceLabel contains abundance values estimated using MetaPhlAn
+* More descriptions available within the code
+
+## Comments
+* synthetic data names: bioRev - HIGH-C, bioRev-2 - HIGH-VAR, bioRev-3 - LOW-C, bioRev-4 - MIXED-C
