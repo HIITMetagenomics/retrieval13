@@ -1,0 +1,201 @@
+### MetaSim taxon profile
+# 0 name "Acetobacter pasteurianus IFO 3283-01"
+0        taxid  634452
+# 1 name "Acetobacter pasteurianus IFO 3283-01-42C"
+1        taxid  634458
+# 26 name "Acetobacter pasteurianus IFO 3283-12"
+26        taxid  634459
+# 0 name "Acetobacter pasteurianus IFO 3283-26"
+0        taxid  634456
+# 22 name "Acetobacterium woodii DSM 1030 chromosome"
+22        taxid  931626
+# 0 name "Acidiphilium cryptum JF-5 chromosome"
+0        taxid  349163
+# 3 name "Acidiphilium multivorum AIU301"
+3        taxid  926570
+# 11 name "Acidithiobacillus caldus SM-1 chromosome"
+11        taxid  990288
+# 0 name "Acidithiobacillus ferrooxidans ATCC 23270"
+0        taxid  243159
+# 26 name "Acinetobacter baumannii 1656-2 chromosome"
+26        taxid  696749
+# 8 name "Acinetobacter baumannii ACICU chromosome"
+8        taxid  405416
+# 19 name "Acinetobacter calcoaceticus PHEA-2 chromosome"
+19        taxid  871585
+# 0 name "Bacillus amyloliquefaciens TA208 chromosome"
+0        taxid  999891
+# 8 name "Bacillus cereus 03BB102"
+8        taxid  572264
+# 3 name "Bacillus cereus AH187 plasmid pAH187_270"
+3        taxid  405534
+# 3 name "Bacillus cereus ATCC 10987 chromosome"
+3        taxid  222523
+# 12 name "Bacillus cereus ATCC 14579"
+12        taxid  226900
+# 17 name "Bacillus cereus NC7401"
+17        taxid  334406
+# 1 name "Bacillus cereus subsp. cytotoxis NVH 391-98 plasmid pBC9801"
+1        taxid  315749
+# 0 name "Bacillus megaterium QM B1551 chromosome"
+0        taxid  545693
+# 14 name "Bacillus megaterium WSH-002 plasmid WSH-002_p3"
+14        taxid  1006007
+# 3 name "Bacillus thuringiensis serovar chinensis CT-43 chromosome"
+3        taxid  541229
+# 0 name "Bacillus thuringiensis str. Al Hakam chromosome"
+0        taxid  412694
+# 1 name "Bacteroides thetaiotaomicron VPI-5482 plasmid p5482"
+1        taxid  226186
+# 1 name "Bifidobacterium bifidum S17 chromosome"
+1        taxid  883062
+# 3 name "Bifidobacterium longum subsp. longum KACC 91563 chromosome"
+3        taxid  1035817
+# 4 name "Chlamydia trachomatis 434/Bu chromosome"
+4        taxid  471472
+# 3 name "Chlamydia trachomatis D-LC chromosome"
+3        taxid  759364
+# 0 name "Chlamydia trachomatis Sweden2"
+0        taxid  634464
+# 21 name "Chlamydophila psittaci 08DC60 chromosome"
+21        taxid  1027843
+# 3 name "Chlamydophila psittaci 6BC chromosome"
+3        taxid  331636
+# 0 name "Chlamydophila psittaci C19/98 chromosome"
+0        taxid  1027844
+# 1 name "Clostridium botulinum Ba4 str. 657 chromosome"
+1        taxid  515621
+# 0 name "Clostridium botulinum E3 str. Alaska E43 chromosome"
+0        taxid  508767
+# 3 name "Clostridium botulinum F str. Langeland chromosome"
+3        taxid  441772
+# 3 name "Clostridium cellulovorans 743B chromosome"
+3        taxid  573061
+# 13 name "Clostridium difficile 2007855"
+13        taxid  699033
+# 1 name "Clostridium difficile 630 chromosome"
+1        taxid  272563
+# 11 name "Clostridium difficile BI1"
+11        taxid  699034
+# 0 name "Clostridium lentocellum DSM 5427 chromosome"
+0        taxid  642492
+# 9 name "Clostridium perfringens ATCC 13124 chromosome"
+9        taxid  195103
+# 11 name "Clostridium perfringens str. 13"
+11        taxid  195102
+# 49 name "Clostridium saccharolyticum WM1 chromosome"
+49        taxid  610130
+# 17 name "Escherichia coli ED1a chromosome"
+17        taxid  585397
+# 5 name "Escherichia coli HS"
+5        taxid  331112
+# 4 name "Escherichia coli IAI1 chromosome"
+4        taxid  585034
+# 2 name "Escherichia coli IAI39 chromosome"
+2        taxid  585057
+# 0 name "Escherichia coli KO11FL chromosome"
+0        taxid  595495
+# 23 name "Escherichia coli O103:H2 str. 12009"
+23        taxid  585395
+# 0 name "Escherichia coli O111:H- str. 11128"
+0        taxid  585396
+# 10 name "Escherichia coli O127:H6 str. E2348/69 chromosome"
+10        taxid  574521
+# 1 name "Escherichia coli O157:H7 str. EC4115 chromosome"
+1        taxid  444450
+# 23 name "Escherichia coli O157:H7 str. EDL933 chromosome"
+23        taxid  155864
+# 2 name "Escherichia coli O157:H7 str. Sakai chromosome"
+2        taxid  386585
+# 0 name "Haloarcula hispanica ATCC 33960 chromosome I"
+0        taxid  634497
+# 9 name "Haloarcula marismortui ATCC 43049 chromosome I"
+9        taxid  272569
+# 14 name "Halobacterium salinarum R1"
+14        taxid  478009
+# 30 name "Halobacterium sp. NRC-1 chromosome"
+30        taxid  64091
+# 3 name "Lactobacillus acidophilus NCFM chromosome"
+3        taxid  272621
+# 6 name "Lactobacillus amylovorus GRL 1112 chromosome"
+6        taxid  695560
+# 7 name "Lactobacillus amylovorus GRL1118 chromosome"
+7        taxid  695562
+# 84 name "Lactobacillus brevis ATCC 367"
+84        taxid  387344
+# 8 name "Lactobacillus buchneri NRRL B-30929 chromosome"
+8        taxid  511437
+# 30 name "Lactobacillus casei ATCC 334"
+30        taxid  321967
+# 0 name "Lactobacillus casei LC2W chromosome"
+0        taxid  999378
+# 17 name "Lactobacillus casei str. Zhang chromosome"
+17        taxid  498216
+# 34 name "Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365 chromosome"
+34        taxid  321956
+# 8 name "Lactobacillus delbrueckii subsp. bulgaricus ND02 chromosome"
+8        taxid  767455
+# 0 name "Pasteurella multocida 36950 chromosome"
+0        taxid  1075089
+# 0 name "Pasteurella multocida subsp. multocida str. HN06 chromosome"
+0        taxid  1132496
+# 11 name "Salmonella bongori NCTC 12419"
+11        taxid  218493
+# 36 name "Salmonella enterica subsp. arizonae serovar 62:z4"
+36        taxid  882884
+# 9 name "Salmonella enterica subsp. enterica serovar Agona str. SL483 chromosome"
+9        taxid  454166
+# 7 name "Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67 chromosome"
+7        taxid  321314
+# 0 name "Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853 chromosome"
+0        taxid  439851
+# 3 name "Salmonella enterica subsp. enterica serovar Enteritidis str. P125109 chromosome"
+3        taxid  550537
+# 0 name "Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91 chromosome"
+0        taxid  550538
+# 15 name "Salmonella enterica subsp. enterica serovar Gallinarum/pullorum str. RKS5078 chromosome"
+15        taxid  1081093
+# 5 name "Salmonella enterica subsp. enterica serovar Heidelberg str. SL476 chromosome"
+5        taxid  454169
+# 27 name "Salmonella enterica subsp. enterica serovar Newport str. SL254 chromosome"
+27        taxid  423368
+# 7 name "Staphylococcus aureus subsp. aureus ED133 chromosome"
+7        taxid  685039
+# 0 name "Staphylococcus aureus subsp. aureus ED98"
+0        taxid  681288
+# 2 name "Staphylococcus aureus subsp. aureus JH1 chromosome"
+2        taxid  359787
+# 0 name "Staphylococcus aureus subsp. aureus JH9 chromosome"
+0        taxid  359786
+# 30 name "Staphylococcus aureus subsp. aureus Mu3"
+30        taxid  418127
+# 17 name "Staphylococcus aureus subsp. aureus Mu50 chromosome"
+17        taxid  158878
+# 0 name "Staphylococcus aureus subsp. aureus NCTC 8325 chromosome"
+0        taxid  93061
+# 0 name "Staphylococcus aureus subsp. aureus T0131 chromosome"
+0        taxid  1006543
+# 8 name "Staphylococcus aureus subsp. aureus USA300_FPR3757 chromosome"
+8        taxid  451515
+# 4 name "Staphylococcus carnosus subsp. carnosus TM300 chromosome"
+4        taxid  396513
+# 25 name "Streptococcus gordonii str. Challis substr. CH1 chromosome"
+25        taxid  467705
+# 6 name "Streptococcus macedonicus ACA-DC 198"
+6        taxid  1116231
+# 6 name "Streptococcus mutans NN2025"
+6        taxid  511691
+# 0 name "Streptococcus mutans UA159 chromosome"
+0        taxid  210007
+# 12 name "Streptococcus oralis Uo5"
+12        taxid  927666
+# 1 name "Streptococcus pneumoniae ATCC 700669"
+1        taxid  561276
+# 23 name "Streptococcus pneumoniae CGSP14 chromosome"
+23        taxid  516950
+# 34 name "Streptococcus pneumoniae D39 chromosome"
+34        taxid  373153
+# 9 name "Streptococcus pyogenes M1 GAS chromosome"
+9        taxid  160490
+# 14 name "Streptococcus pyogenes MGAS10270 chromosome"
+14        taxid  370552
