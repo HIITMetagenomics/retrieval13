@@ -44,7 +44,8 @@ switch experiment
         posSample = 71;
     case 'T2D-P2'
         abundancePath = '/triton/ics/scratch/mi/SRP011011/abundance.mat';
-        clear label; load('/triton/ics/scratch/mi/SRP011011/annot_011011_matlab'); label = annot_011011_matlab(:,2); rowIndex = annot_011011_matlab(:,1); clear annot_011011_matlab
+        clear label; % load('/triton/ics/scratch/mi/SRP011011/annot_011011_matlab'); 
+        load annot_011011_matlab; label = annot_011011_matlab(:,2); rowIndex = annot_011011_matlab(:,1); clear annot_011011_matlab
         kmerPath = '/triton/ics/scratch/mi/SRP011011/kmerFrequency/SRP011011.k';
         kmerIndex = '/triton/ics/scratch/mi/SRP011011/rowIndex.txt';
         stringPath = '/triton/ics/scratch/mi/SRP011011/string.normalizedEntropy.C2/';
